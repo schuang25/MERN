@@ -70,7 +70,7 @@ const UserForm = (props) => {
             <form onSubmit={postUser}>
                 <div>
                     <label>First Name:</label>
-                    <input type="text" onChange={handleFirstName} />
+                    <input type="text" onChange={handleFirstName} value={firstName} />
                     {
                         fNameError ? 
                         <p style={{color:'red'}}>{fNameError}</p> :
@@ -79,7 +79,7 @@ const UserForm = (props) => {
                 </div>
                 <div>
                     <label>Last Name:</label>
-                    <input type="text" onChange={handleLastName} />
+                    <input type="text" onChange={handleLastName} value={lastName} />
                     {
                         lNameError ? 
                         <p style={{color:'red'}}>{lNameError}</p> :
@@ -88,7 +88,7 @@ const UserForm = (props) => {
                 </div>
                 <div>
                     <label>Email:</label>
-                    <input type="text" onChange={handleEmail} />
+                    <input type="text" onChange={handleEmail} value={email} />
                     {
                         emailError ? 
                         <p style={{color:'red'}}>{emailError}</p> :
@@ -97,7 +97,7 @@ const UserForm = (props) => {
                 </div>
                 <div>
                     <label>Password:</label>
-                    <input type="password" onChange={handlePassword} />
+                    <input type="password" onChange={handlePassword} value={password} />
                     {
                         passwordError ? 
                         <p style={{color:'red'}}>{passwordError}</p> :
@@ -106,7 +106,7 @@ const UserForm = (props) => {
                 </div>
                 <div>
                     <label>Confirm Password:</label>
-                    <input type="password" onChange={handleConfirm} />
+                    <input type="password" onChange={handleConfirm} value={confirm} />
                     {
                         confirmError ? 
                         <p style={{color:'red'}}>{confirmError}</p> :
