@@ -1,0 +1,13 @@
+.item {
+    text-decoration: none;
+}
+
+.itemDone {
+    text-decoration: line-through;
+}
+
+.listItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
