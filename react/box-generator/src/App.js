@@ -9,7 +9,7 @@ function App() {
   const [boxNum, setBoxNum] = useState(0);
 
   const addNewBox = (newBox) => {
-    boxes.push(newBox);
+    setBoxes([...boxes, newBox]);
     // console.log(boxes);
     setBoxNum(boxNum + 1);
   }
