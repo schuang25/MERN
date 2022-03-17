@@ -1,0 +1,4 @@
+create app - npx create-react-app <app-name>
+
+routing - npm install react-router-dom@5
+api calls (axios) - npm install axios
