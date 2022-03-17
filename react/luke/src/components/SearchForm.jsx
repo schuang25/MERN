@@ -45,7 +45,7 @@ const SearchForm = (props) => {
         <form onSubmit={search}>
             <label>Search for: </label>
             <select value={category} onChange={updateCategory}>
-                <option value="">--- Select a category ---</option>
+                <option disabled value="">--- Select a category ---</option>
                 <option value="people">People</option>
                 <option value="planets">Planets</option>
             </select>

@@ -4,14 +4,14 @@ import SearchForm from "./components/SearchForm";
 import SearchResults from "./components/SearchResults";
 
 import React, {useState, useEffect} from 'react';
-import {BrowserRouter, Switch, Route, useParams} from 'react-router-dom';
+import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import axios from 'axios';
 
 
 function App() {
   const [category, setCategory] = useState("");
   const [id, setId] = useState(0);
-  const [response, setResponse] = useState([]);
+  const [response, setResponse] = useState({});
   
 
   const formSubmitted = (form) => {
