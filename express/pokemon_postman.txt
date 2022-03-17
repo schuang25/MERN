@@ -1,0 +1,5 @@
+https://pokeapi.co/api/v2/pokemon/25
+https://pokeapi.co/api/v2/pokemon/334
+https://pokeapi.co/api/v2/pokemon/snom
+https://pokeapi.co/api/v2/pokemon/417
+https://pokeapi.co/api/v2/pokemon/bidoof
