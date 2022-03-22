@@ -13,7 +13,10 @@ const ProductForm = (props) => {
             price,
             description
         })
-            .then(res=>console.log(res))
+            .then(res=>{
+                console.log(res);
+                props.update();
+            })
             .catch(err=>console.log(err))
     }
 
